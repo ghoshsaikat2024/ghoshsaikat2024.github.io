@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="Utf-8"/>
+        <title >EDA On Indian Trade</title>
+        <link rel="stylesheet" href="eda_style.css" />
+    </head>
+    <body>
+        <header><h3><b>Exploratory Data Analysis on Indian Trade</b></h3></header>
+        <main>
+            <section class="Intro">
+                <h4>Introduction:</h4>
+                <p>India stands as one of the most dynamic and rapidly growing economies in the world. 
+                    With a GDP of approximately $3 trillion, India ranks as the sixth largest economy globally. 
+                    The country's diverse economic landscape is characterized by a  mixture of agriculture, manufacturing, and services, with the latter sector contributing significantly to its GDP. 
+                    India's increasing middle class population, young demographic profile, and increasing urbanization drive domestic consumption and economic growth. 
+                    Moreover, India's strategic policy reforms, such as the implementation of GST and initiatives like "Make in India," aim to boost industrial output and attract foreign investment. 
+                    As the country continues to integrate more deeply into the global economy, it holds immense potential to emerge as one of the leading economic powerhouses, capable of competing on an equal footing with established and emerging economies alike. 
+                    This trade data analysis project aims to delve into the nuances of India's trade dynamics, exploring & comparing the trade data of financial year 2021-22 & 2022-23.</p>
+            </section>
+            <!-- <img src="piechart1.png" width="400" height="200" /> -->
+            <section Project Info>
+                <h4>What is this Project About?</h4>
+                <p>In this project I've tried to compare the trade statistics of Indian trade and trade relation with otehr countries for financial year 2021-22 & 2022-23.Moreover I've also tried to show the effect of Russia-Ukraine war on trade relation between India and Russia.</p>
+            </section>
+            <h4><b>Data Source:</b><a href="https://commerce.gov.in/trade-statistics/">Click Here</a>(Indian Trade Statistics Website)</h4>
+
+            <section class="Obj">
+                <h4>Analysis Objectives:</h4>
+                <ul>
+                    <li>To Compare Export vs Import percentage of two FY2021-22 & FY2022-23</li>
+                    <li>To find Top Trading Partners of India & their trading relation comparison of these two financial years.</li>
+                    <li>Top High Import and Export Commodities by India</li>
+                    <li>Top 15 High Growth Import and Export Commodities</li>
+                </ul>
+            </section>    
+            <section>
+                <h4><b>Project Info:</b></h4>
+                <ul>
+                    <li>This Eda has been done using R programming language.For code &dataset please click <a href="https://github.com/ghoshsaikat2024/EDA-ON-INDIAN-TRADE">here</a> which will redirect you to my github page.</li>
+                </ul>
+                <h4><b>Analysis:</b></h4>
+                <h4>Few Terms:</h4>
+                <ul>
+                    <li>Trade Balance: Total Export-Total Import.(Negative Trade Balance means the country has trade deficit)</li>
+                    <li>Trade Deficit:Total Import- Total Export.</li>
+                </ul>
+                <p>When Trade Balance is positive it is called Trade Surplus whereas for negative Trade Balance it is called Trade Deficit.</p>
+                    <subsection>
+                    <p>As we can see that India's Import percentage of last two years is 59.24% & 61.3% respectively,whereas the Export percentage is:40.76% & 38.7% of total trade.
+                        
+                        So clearly India has Trade Deficit of 18.48% for FY2021-22 & Trade Deficit of 22.6% for FY2022-23.
+                        
+                        Moreover we can see that in Fy2022-23 India's trade deificit has increased by 22.28 % compared to Fy2021-22.</p>
+                    </subsection>    
+                    <subsection>
+                        <h4>Top Trading Partners:</h4>
+                        <ol>
+                        <li>Here we can see that USA,China & UAE holds the top spot when it comes to trade with india.</li>
+
+                        <li>As we can see from the graph that Russia was not the the top 10 list in FY2021-22.But it holds the 5th spot in top trading partners in FY2022-23.</li>
+                        <li>In the last graph we see trade growth of Russia with India is the highest (a staggering 276.08 percentage of increase in Trade relation with india).</li>
+                    </ol>    
+                    <p>Note:As we know that during Russia Ukraine War,when UN imposed heavy sanctions on Russia and Russian economy was falling ,India imported Crude oil from Russia at heavy discount prices which is clearly visible from the graph.</p>
+                    </subsection>
+                    <div class="top trade partners img">
+                        <img src="top_trade_partners.png" width="500" height="300"/>
+                        <img src="growth_in_trade.png" width="500" height="300" />
+                    </div>
+
+                    <subsection>
+                        <h4>Country wise export import comparison</h4>
+                        <ol>
+                            <li>In FY2021-22 from the plot below we can clearly see that India has negative Trade Balance for most of its trading partners other than USA.</li>
+
+                            <li>For Iraq ,China & Saudi Arab the trade deficit is highest,for Singapore,UAE &Hong Kong it is moderately on the positive side whereas only for USA India has negative trade deficit.</li>
+                            <li>In FY2022-23 for Russia,Iraq & China the percentage of trade deficit is highest,for Singapore,UAE & Hong Kong it is moderately high whereas only for USA India has trade surplus.</li>
+                        </ol>
+                    <p></p>Note: No matter what people say the data clearly shows that India is highly dependent on Chinese products.</p>
+                    </subsection>
+                    <div class="export import comparison image">
+                        <img src="fy2021_22_expoimport_comparison.png" width="500" height="300" />
+                        <img src="fy2022_23_expoimport_comparison.png" width="500" height="300" />
+                    </div>
+                    <subsection>
+                        <h4>Commodity wise Export analysis:</h4>
+                        <ul>
+                            <li>From this plot we can see that top 10 Exported commodities of both FY2021-22 &FY2022-23 where Mineral fuel,Natural /Cultured pearls and Nuclear Reactor and 
+                                mechanical appliances holds the top 3 spot in FY2021-22 and Mineral fuel,Natural /Cultured pearls and Electrical equipments &appliances (Ex:TV ,Sound Recorders etc.) holds the top spot in FY2022-23.</li>
+                            
+                            <li>Next we have high growth export commodities.Here we can see highest increase in export of commodity compared to previous year.
+
+                                Where Works of art pieces&antiques,Pulp of wood/Fibrous cellulosic material,nickel,prepared animal fodder and fertilisers holds the top 5 spot .</li>    
+                            </ul>
+                    </subsection>
+                    <div class="commodity export img">
+                        <img src="fy2021_22_export_commodity.png" width="600" height="400" />
+                        <img src="fy2022_23_export_commodity.png" width="600" height="400" />
+                        <img src="high_growth_export_commodity.png" width="600" height="400" />
+                        <img src="high_growth_import_commodity.png" width="600" height="400" />
+                    </div>
+                    <subsection>
+                        <h4>Commodity wise Import analysis:</h4>
+                        <ul>
+                            <li>From this plot we can see that top 10 Imported commodities by India in both FY2021-22 &FY2022-23 where Mineral fuel,Natural /Cultured pearls and Electrical& Machinary Equipments holds the top 3 spot in both FY2021-22 and FY2022-23.</li>
+
+                            <li>For high growth Import Commodities we can see Cereals,Cotton &Works of Antique pieces holds the top 3 spot.</li>
+                        </ul>
+                    </subsection>
+                    <div class="commodity import img">
+                        <img src="fy2021_22_import_commodity.png" width="600" height="400" />
+                        <img src="fy2022_23_import_commodity.png" width="600" height="400" />
+                    </div>
+
+            </section>
+
+            
+        </main>
+    </body>
+</html>

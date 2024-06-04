@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color:white;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 30px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size:large;
+    animation: slide-in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes slide-in{
+    0%{
+        transform: translate(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(40px);
+        opacity: 1;
+    }
+}
+
+
+
+header{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aqua;
+}
+
+h4{
+    font-size: larger;
+    color: aqua;
+}
+
+a{
+    color:goldenrod;
+}
+a:hover{
+    color:blueviolet
+}
+
+img{
+    padding-bottom:15px;
+    padding-left: 65px;
+}
+
+
+
