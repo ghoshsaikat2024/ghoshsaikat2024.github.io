@@ -1,0 +1,148 @@
+header{
+    background-color: cornsilk;
+    font-size: xx-large;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+   
+}
+
+/* html{
+    width:80%;
+    
+} */
+
+/* main{
+    background-image: url("EDA_indian_export_import\image2.jpg");
+    
+} */
+
+.intro
+{    animation-name: slide-in;
+    animation-duration: 2s;
+    transform: translateX(100px);
+    /* animation-delay: 1s; */
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    width: 60%;
+    text-align: justify;
+}
+
+@keyframes slide-in{
+    0%{
+        
+        transform:translateX(-100px);
+        opacity: 0;
+        
+
+    }
+    100% {
+        transform:translateX(100px);
+        opacity: 1;
+    }
+} 
+
+
+
+.what
+{    animation-name: slide-in;
+    animation-duration: 2s;
+    transform: translateX(100px);
+    /* animation-delay: 1s; */
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in{
+    0%{
+        
+        transform:translateX(-100px);
+        opacity: 0;
+        
+
+    }
+    100% {
+        transform:translateX(100px);
+        opacity: 1;
+    }
+} 
+
+.why{
+    animation-name: slide-in;
+    animation-duration: 3s;
+    transform: translateX(100px);
+    /* animation-delay: 1s; */
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in{
+    0%{
+        
+        transform:translateX(-100px);
+        opacity: 0;
+        
+
+    }
+    100% {
+        transform:translateX(100px);
+        opacity: 1;
+    }
+} 
+
+
+.How {
+    animation-name: slide-in;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+}
+.team_info{
+    animation-name: slide-in;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+}
+
+.project_info{
+    animation-name:slide-in;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transform: translateX(100px);
+    opacity: 0;
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+}
